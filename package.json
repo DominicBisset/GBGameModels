@@ -1,11 +1,15 @@
 {
   "name": "gb-game-models",
-  "version": "0.0.4",
-  "description": "Game-related interfaces and enums for Guild Ball",
-  "main": "./dist/index",
+  "version": "0.0.5",
   "author": {
-    "name": "dom",
+    "name": "Dominic Bisset",
     "email": "mail@dominicbisset.co.uk"
   },
-  "typings": "./dist/index"
+  "description": "Game-related interfaces and enums for Guild Ball game data",
+  "repository": "DominicBisset/GBGameModels",
+  "bugs": "https://github.com/DominicBisset/GBGameModels/issues",
+  "main": "./dist/index",
+  "typings": "./dist/index",
+  "directories": { "lib": "./dist" }
+  
 }
