@@ -1,0 +1,11 @@
+{
+  "name": "gb-game-models",
+  "version": "0.0.4",
+  "description": "Game-related interfaces and enums for Guild Ball",
+  "main": "./dist/index",
+  "author": {
+    "name": "dom",
+    "email": "mail@dominicbisset.co.uk"
+  },
+  "typings": "./dist/index"
+}
