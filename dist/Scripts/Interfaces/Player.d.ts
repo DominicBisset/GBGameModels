@@ -14,6 +14,8 @@ export interface Player {
     infGenerated: Number;
     infMax: Number;
     health: Number;
+    baseSize: Number;
+    meleeZone: Number;
     icySpongeLevels: Array<Number>;
     playbook: Array<PlaybookResult>;
     plays: Array<Play>;
