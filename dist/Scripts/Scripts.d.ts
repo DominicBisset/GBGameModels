@@ -1,2 +1,2 @@
-export * from './Interfaces/Interfaces';
-export * from './Enums/Enums';
+export * from './Interfaces/index';
+export * from './Enums/index';

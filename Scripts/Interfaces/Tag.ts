@@ -1,5 +1,6 @@
 ﻿import {TagType} from "../Scripts";
 export interface Tag {
-        name: String;
-        type: TagType;
+    id?: Number;
+    name: String;
+    type: TagType;
 }

@@ -33,14 +33,15 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="tsd.json" />
     <TypeScriptCompile Include="index.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <TypeScriptCompile Include="Scripts\Enums\Enums.ts" />
+    <TypeScriptCompile Include="Scripts\Enums\index.ts" />
     <TypeScriptCompile Include="Scripts\Enums\ResultType.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Character.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\CharacterPlay.ts" />
-    <TypeScriptCompile Include="Scripts\Interfaces\Interfaces.ts" />
+    <TypeScriptCompile Include="Scripts\Interfaces\index.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\PlaybookResult.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Player.ts" />
     <TypeScriptCompile Include="Scripts\Enums\PlayType.ts" />

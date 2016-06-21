@@ -1,6 +1,6 @@
-import { Character, Team, Season, PlaybookResult, Play, Tag } from "./Interfaces";
+import { Character, Team, Season, PlaybookResult, Play, Tag } from "./index";
 export interface Player {
-    id: Number;
+    id?: Number;
     character: Character;
     playsFor: Array<Team>;
     validFor: Array<Season>;

@@ -7,4 +7,4 @@ var TagType_1 = require("./TagType");
 exports.TagType = TagType_1.TagType;
 var Zone_1 = require("./Zone");
 exports.Zone = Zone_1.Zone;
-//# sourceMappingURL=Enums.js.map
+//# sourceMappingURL=index.js.map
