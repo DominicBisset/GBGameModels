@@ -2,5 +2,6 @@
 export interface Team {
     id?: Number;
     name: String;
-    introduced: Season;
+    seasonIntroduced?: Season;
+    seasonIntroducedNo: Number;
 }

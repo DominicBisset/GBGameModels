@@ -1,4 +1,4 @@
-﻿//module GBGameModels {
+﻿
 export interface Season {
     seasonNo: Number;
     startDate: Date;
