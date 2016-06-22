@@ -33,7 +33,6 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="tsd.json" />
     <TypeScriptCompile Include="index.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -52,14 +51,11 @@
     <TypeScriptCompile Include="Scripts\Interfaces\Play.ts" />
     <TypeScriptCompile Include="Scripts\Enums\Zone.ts" />
     <TypeScriptCompile Include="Scripts\Scripts.ts" />
-    <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\Interfaces\" />
     <Folder Include="Scripts\Enums\" />
-    <Folder Include="Scripts\typings\" />
-    <Folder Include="Scripts\typings\node\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">

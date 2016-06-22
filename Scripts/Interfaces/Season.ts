@@ -2,7 +2,6 @@
 export interface Season {
     seasonNo: Number;
     startDate: Date;
-    endDate: Date;
-    current: Boolean;
+    endDate?: Date;
 
 }
