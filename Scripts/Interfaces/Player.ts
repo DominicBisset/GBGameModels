@@ -6,7 +6,8 @@ export interface Player {
 
     character: Character;
     playsFor: Array<Team>;
-    validFor: Array<Season>;
+    seasonIntroduced: Season;
+    seasonRetired?: Season;
 
     movJog: Number;
     movRun: Number;

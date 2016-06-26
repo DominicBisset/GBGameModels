@@ -4,7 +4,8 @@ export interface Player {
     title?: String;
     character: Character;
     playsFor: Array<Team>;
-    validFor: Array<Season>;
+    seasonIntroduced: Season;
+    seasonRetired?: Season;
     movJog: Number;
     movRun: Number;
     TAC: Number;
