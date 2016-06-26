@@ -1,4 +1,4 @@
-﻿import {Character, Team, Season, PlaybookResult, Play, Tag} from "./index";
+﻿import {Character, Team, Season, PlaybookResult, Ability, Tag} from "./index";
 
 export interface Player {
     id?: Number;
@@ -21,6 +21,6 @@ export interface Player {
     meleeZone: Number;
     icySpongeLevels: Array<Number>;
     playbook: Array<PlaybookResult>;
-    plays: Array<Play>;
+    abilities: Array<Ability>;
     tags: Array<Tag>;
 }

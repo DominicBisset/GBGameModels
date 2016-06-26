@@ -36,26 +36,26 @@
     <TypeScriptCompile Include="index.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <TypeScriptCompile Include="Scripts\Enums\AbilityType.ts" />
     <TypeScriptCompile Include="Scripts\Enums\index.ts" />
     <TypeScriptCompile Include="Scripts\Enums\ResultType.ts" />
+    <TypeScriptCompile Include="Scripts\Enums\TagType.ts" />
+    <TypeScriptCompile Include="Scripts\Enums\Zone.ts" />
+    <TypeScriptCompile Include="Scripts\Interfaces\Ability.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Character.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\CharacterPlay.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\index.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\PlaybookResult.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Player.ts" />
-    <TypeScriptCompile Include="Scripts\Enums\PlayType.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Season.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Tag.ts" />
-    <TypeScriptCompile Include="Scripts\Enums\TagType.ts" />
     <TypeScriptCompile Include="Scripts\Interfaces\Team.ts" />
-    <TypeScriptCompile Include="Scripts\Interfaces\Play.ts" />
-    <TypeScriptCompile Include="Scripts\Enums\Zone.ts" />
-    <TypeScriptCompile Include="Scripts\Scripts.ts" />
+    <TypeScriptCompile Include="Scripts\index.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\" />
-    <Folder Include="Scripts\Interfaces\" />
     <Folder Include="Scripts\Enums\" />
+    <Folder Include="Scripts\Interfaces\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">

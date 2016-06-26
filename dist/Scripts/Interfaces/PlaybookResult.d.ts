@@ -1,4 +1,4 @@
-import { ResultType } from "../Scripts";
+import { ResultType } from "../index";
 export interface PlaybookResult {
     id?: Number;
     row: Number;

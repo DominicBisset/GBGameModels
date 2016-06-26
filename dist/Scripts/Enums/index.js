@@ -1,6 +1,6 @@
 "use strict";
-var PlayType_1 = require("./PlayType");
-exports.PlayType = PlayType_1.PlayType;
+var AbilityType_1 = require("./AbilityType");
+exports.AbilityType = AbilityType_1.AbilityType;
 var ResultType_1 = require("./ResultType");
 exports.ResultType = ResultType_1.ResultType;
 var TagType_1 = require("./TagType");

@@ -1,4 +1,4 @@
-import { TagType } from "../Scripts";
+import { TagType } from "../index";
 export interface Tag {
     id?: Number;
     name: String;
