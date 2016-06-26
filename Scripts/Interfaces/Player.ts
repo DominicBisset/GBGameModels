@@ -2,6 +2,7 @@
 
 export interface Player {
     id?: Number;
+    title?: String;
 
     character: Character;
     playsFor: Array<Team>;

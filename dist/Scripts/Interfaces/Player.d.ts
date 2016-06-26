@@ -1,6 +1,7 @@
 import { Character, Team, Season, PlaybookResult, Ability, Tag } from "./index";
 export interface Player {
     id?: Number;
+    title?: String;
     character: Character;
     playsFor: Array<Team>;
     validFor: Array<Season>;
