@@ -4,4 +4,5 @@
         Race,
         Position,
         TeamRole,
+        CharacterVariant
 }

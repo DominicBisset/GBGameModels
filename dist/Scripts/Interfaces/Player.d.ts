@@ -2,10 +2,13 @@ import { Character, Team, Season, PlaybookResult, Ability, Tag } from "./index";
 export interface Player {
     id?: Number;
     title?: String;
-    character: Character;
+    character?: Character;
+    characterId: Number;
     playsFor: Array<Team>;
-    seasonIntroduced: Season;
+    seasonIntroduced?: Season;
+    seasonIntroducedNo: Number;
     seasonRetired?: Season;
+    seasonRetiredNo?: Number;
     movJog: Number;
     movRun: Number;
     TAC: Number;

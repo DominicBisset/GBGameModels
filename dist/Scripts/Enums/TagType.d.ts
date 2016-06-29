@@ -4,4 +4,5 @@ export declare enum TagType {
     Race = 2,
     Position = 3,
     TeamRole = 4,
+    CharacterVariant = 5,
 }
