@@ -4,4 +4,5 @@ export interface Team {
     name: String;
     seasonIntroduced?: Season;
     seasonIntroducedNo: Number;
+    logoImageUri: String;
 }

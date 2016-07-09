@@ -26,4 +26,9 @@ export interface Player {
     playbook: Array<PlaybookResult>;
     abilities: Array<Ability>;
     tags: Array<Tag>;
+
+    playerImageUri: String;
+    modelImageUri: String;
+    cardFrontImageUri: String;
+    cardBackImageUri: String;
 }

@@ -6,3 +6,4 @@ export * from "./Player";
 export * from "./Season";
 export * from "./Tag";
 export * from "./Team";
+export * from "./ResultEffect";
