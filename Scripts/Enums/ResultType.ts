@@ -1,5 +1,5 @@
 ﻿export enum ResultType {
-    Momentous,
+    Momentous = 1,
     Damage,
     Tackle,
     KnockDown,

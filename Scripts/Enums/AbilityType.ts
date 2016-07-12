@@ -1,5 +1,5 @@
 ﻿export enum AbilityType {
-    CharacterTrait,
+    CharacterTrait = 1,
     CharacterPlay,
     HeroicPlay,
     LegendaryPlay

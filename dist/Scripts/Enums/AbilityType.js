@@ -1,9 +1,9 @@
 "use strict";
 (function (AbilityType) {
-    AbilityType[AbilityType["CharacterTrait"] = 0] = "CharacterTrait";
-    AbilityType[AbilityType["CharacterPlay"] = 1] = "CharacterPlay";
-    AbilityType[AbilityType["HeroicPlay"] = 2] = "HeroicPlay";
-    AbilityType[AbilityType["LegendaryPlay"] = 3] = "LegendaryPlay";
+    AbilityType[AbilityType["CharacterTrait"] = 1] = "CharacterTrait";
+    AbilityType[AbilityType["CharacterPlay"] = 2] = "CharacterPlay";
+    AbilityType[AbilityType["HeroicPlay"] = 3] = "HeroicPlay";
+    AbilityType[AbilityType["LegendaryPlay"] = 4] = "LegendaryPlay";
 })(exports.AbilityType || (exports.AbilityType = {}));
 var AbilityType = exports.AbilityType;
 //# sourceMappingURL=AbilityType.js.map

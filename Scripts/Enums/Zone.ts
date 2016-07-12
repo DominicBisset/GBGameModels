@@ -1,5 +1,5 @@
 ﻿export enum Zone {
-        AOE,
+        AOE = 1,
         Aura,
         Pulse
 }

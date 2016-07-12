@@ -1,5 +1,5 @@
 ﻿export enum TagType {
-        Gender,
+        Gender = 1,
         Ethnicity,
         Race,
         Position,

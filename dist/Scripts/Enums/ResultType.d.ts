@@ -1,9 +1,9 @@
 export declare enum ResultType {
-    Momentous = 0,
-    Damage = 1,
-    Tackle = 2,
-    KnockDown = 3,
-    Push = 4,
-    Dodge = 5,
-    GuildBall = 6,
+    Momentous = 1,
+    Damage = 2,
+    Tackle = 3,
+    KnockDown = 4,
+    Push = 5,
+    Dodge = 6,
+    GuildBall = 7,
 }
